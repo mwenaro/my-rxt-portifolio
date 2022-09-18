@@ -1,20 +1,2 @@
-header nav ul{
-	font-size:1.2rem;
-display:flex;
-flex-direction:row;
-justify-content:flex-end;
-gap:1rem;
-
-}
-
-
-a:hover, a:active{
-	background:#f0f;
-	
-	width:100%;
-	padding:0.3rem 0.5rem;
-	border-radius:1rem;
-	font-size:1.2rem;
-}
 
 
