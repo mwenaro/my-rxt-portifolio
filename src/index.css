@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --bg-color: #e5e5e5e;
+    --bg-color-variant: rgba(243, 233, 233, 0.808);
+    --primary-color: #00f;
+    --primary-color-variant: rgba(0, 0, 255, 0.5);
+    --white-color: #fff;
+    --white-color-variant: rgba(255, 255, 255, 0.7);
+
+    /* sizes */
+    --container-width-lg: 75%;
+    --container-width-md: 85%;
+    --container-width-sm: 90%;
+
+    --transition: all 400ms ease;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+
+    line-height: 1.7;
+    background-image: url(./assets/img-texture-1.jpg);
+
+}
+
+.container {
+    margin: 0 auto;
+    width: var(--container-width-lg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-top: 8rem;
+}
+
+section>h2,
+section>h5 {
+    text-align: center;
+    color: var(--white-color);
+    margin-bottom: 3rem;
+}
+
+a {
+    transition: var(--transition);
+    color: var(--primary-color);
+}
+
+.text-light {
+    color: var(--white-color-variant);
+}
+
+.my-icons{
+color: var(--primary-color);
+}
+.btn {
+    width: max-content;
+    color: var(--primary-color);
+    display: inline-block;
+    padding: 0.75rem 1.2rem;
+    cursor:pointer;
+    border: 1px solid var(--bg-color);
+}
+
+img{
+    display:block;
+    width:100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1024px){
+    .container{
+        width:var(--container-width-md);
+    }
+
+    
+}
+
+@media screen and (max-width:600px){
+    .container{
+        width:var(--container-width-sm);
+    }
+
+    
+}

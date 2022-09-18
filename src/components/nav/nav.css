@@ -1,0 +1,19 @@
+nav.floating-nav{
+	position:absolute;
+	top:60%;
+	
+}
+
+.floating-nav > ul{
+	width:60%;
+margin:auto;
+display:flex;
+justify-content:center;
+gap:1rem;
+
+
+}
+.floating-nav a{
+	color: var(--primary-color);
+
+}
