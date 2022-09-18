@@ -80,6 +80,9 @@ a {
     color: var(--white-color-variant);
 }
 
+.my-icons{
+color: var(--primary-color);
+}
 .btn {
     width: max-content;
     color: var(--primary-color);

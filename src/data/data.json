@@ -1,0 +1,24 @@
+" [
+                {
+                        "title": "Full Stack Engineer",
+                        "company" : "Ipca Laboratories Limited ",
+                        "start": "Aug 2021",
+                        "end": "Jul 2022",
+                        "skills": ["HTML", "CSS", "JavaSript", "React","Typescript", "Redux","PHP", "MySQL", "Node", "MongoDb"]
+                  },
+                  {
+                        "title": "Full Stack Developer",
+                        "company" : "Miyani Digital SOlutions",
+                        "start": "Apr 2020",
+                        "end": "Jul 2021",
+  "skills": ["HTML", "CSS", "JavaSript", "React","Typescript", "Redux","PHP", "MySQL", "Node", "MongoDb"]
+                  },
+                  {
+                        "title": "Junior Software Engineer",
+                        "company" : "Kwale International Sugar Company Ltd",
+                        "start": "Aug 2019",
+                        "end": "Feb 2020",
+                        "skills": ["HTML", "CSS", "JavaSript", "jQuery", "PHP", "MySQL", "AngularJs 1.x", "React"]
+                  }
+                     ]
+"
